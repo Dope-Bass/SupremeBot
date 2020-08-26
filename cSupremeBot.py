@@ -45,6 +45,7 @@ class SupremeBot:
                     self.getPerfectItem(sizes, desirable["size"])
             else:
                 continue
+        self.goToCheckOut()
 
     def getPerfectItem(self, sizes, desirableSize):
         # Кидает в корзину найденный элемент нужного размера
